@@ -1,7 +1,8 @@
-## Hi, I'm Donato! :fist:
-#### Mobile Developer & Code Lover :heart:
+## Yo!, What's up!?  :metal:
+#### My name is Donato, I'm Mobile Developer & Code Lover :heart: <br> Now that you've arrived here, take a look to my repos! :eyes:
 
-[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
+
+<br>[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
 [![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
 ![](https://komarev.com/ghpvc/?username=donatogomez&color=red)
 
@@ -12,15 +13,11 @@ const aboutMe = {
   architecture: ["Clean Architecture", "MVC", "MVVM", "MVVM-C"],
   technologies: {
       mobile: {
-        lang: {
-          iOS: "Swift",
-          Android: ["Kotlin", "Java"]
-        },
-        IDEs: ["Xcode", "Android Studio"],
-        tools: ["Firebase", "Flutter", "Fastlane"]
+        platforms: ["iOS", "Android", "Hybrid"],
+        tools: ["Xcode", "Android Studio", "Flutter", "Firebase", "Fastlane"]
       },
       databases: ["MySQL", "SQLite"],
-      misc: ["TDD", "Git", "Agile", "Scrum"]
+      misc: ["Agile", "Scrum", "TDD", "Git"]
    }
 }
 ```
