@@ -1,4 +1,4 @@
-<img width=190 align="right" src="https://github.com/donatogomez/donatogomez/img/donato-gomez.png" />
+<img width=190 align="right" src="https://github.com/donatogomez/donatogomez/blob/main/img/donato-gomez.png" />
 
 ## Yo!, What's up!?  :metal:
 #### My name is Donato, I'm Mobile Developer & Code Lover :heart: <br> Now that you've arrived here, take a look to my repos! :eyes:
