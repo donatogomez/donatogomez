@@ -1,6 +1,6 @@
 <img width=190 align="right" src="https://github.com/donatogomez/donatogomez/blob/main/img/donato-gomez.png" />
 
-# :metal:&#127998; Yo!, What's up!?
+# :metal:&#127995; Yo!, What's up!?
 
 :zap: My name is **Donato**, I'm Mobile Developer & Code Lover  <br> 
 :trident: If you don't follow me yet, fork off.
@@ -8,11 +8,12 @@
 
 <br>[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
 [![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
+![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=donatogomez.README.md)
 
 ```javascript
 const aboutMe = {
   pronouns: "he/him",
-  code: [Swift, Kotlin, Java, HTML, CSS],
+  code: [Swift, Kotlin, Java, Dart, HTML, CSS],
   architecture: ["Clean Architecture", "MVC", "MVVM", "MVVM-C"],
   technologies: {
       mobile: {
@@ -51,8 +52,4 @@ const aboutMe = {
 <div align="center">
   <a href="https://www.buymeacoffee.com/somalias" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
   </a>
-</div>
-<br>
-<div align="center">
-  <img src="https://api.visitorbadge.io/api/VisitorHit?user=donatogomez&repo=github-visitors-badge&countColor=RED">
 </div>
