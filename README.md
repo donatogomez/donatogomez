@@ -1,7 +1,10 @@
 <img width=190 align="right" src="https://github.com/donatogomez/donatogomez/blob/main/img/donato-gomez.png" />
 
-## Yo!, What's up!?  :metal:
-#### My name is Donato, I'm Mobile Developer & Code Lover :heart: <br> Now that you've arrived here, take a look to my repos! :eyes:
+# :metal: Yo!, What's up!?
+
+---
+
+My name is Donato, I'm Mobile Developer & Code Lover :heart: <br> Now that you've arrived here, take a look to my repos! :eyes:
 
 
 <br>[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
@@ -18,12 +21,24 @@ const aboutMe = {
         platforms: ["iOS", "Android", "Hybrid"],
         tools: ["Xcode", "Android Studio", "Flutter", "Firebase", "Fastlane"]
       },
-      databases: ["MySQL", "SQLite"],
+      persistence: ["MySQL", "SQLite", "Core Data"],
       misc: ["Agile", "Scrum", "TDD", "Git"]
    }
 }
 ```
 
-#### Languages & Tools
-<br><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="apple" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="java" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" alt="android" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="flutter" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" alt="firebase" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" alt="trello" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/atom/atom-original.svg" alt="atom" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" alt="markdown" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="slack" width="40" height="40"/>
+
+# Languages & Tools
+
+---
+
+<img src="https://img.shields.io/badge/KOTLIN-blueviolet?style=for-the-badge&logo=kotlin&logoColor=white"/>
+<img src="https://img.shields.io/badge/ANDROID-32DE84?style=for-the-badge&logo=android&logoColor=white"/>
+<img src="https://img.shields.io/badge/SWIFT-f05138?style=for-the-badge&logo=swift&logoColor=white"/>
+<img src="https://img.shields.io/badge/APPLE-white?style=for-the-badge&logo=apple&logoColor=black"/>
+<img src="https://img.shields.io/badge/-GITHUB-black?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/mySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/firebase-FFA611?style=for-the-badge&logo=firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/trello-007AC0?style=for-the-badge&logo=trello&logoColor=white" />
+<img src="https://img.shields.io/badge/markdown-black?style=for-the-badge&logo=markdown&logoColor=white"/>
+<img src="https://img.shields.io/badge/slack-E01E5A?style=for-the-badge&logo=slack&logoColor=white"/>
