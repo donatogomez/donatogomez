@@ -1,6 +1,6 @@
 <img width=190 align="right" src="https://github.com/donatogomez/donatogomez/blob/main/img/donato-gomez.png" />
 
-# :metal::skin-tone-2: Yo!, What's up!?
+# :metal:&#127998; Yo!, What's up!?
 
 :zap: My name is **Donato**, I'm Mobile Developer & Code Lover  <br> 
 :trident: If you don't follow me yet, fork off.
@@ -8,7 +8,6 @@
 
 <br>[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
 [![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
-![](https://komarev.com/ghpvc/?username=donatogomez&color=red)
 
 ```javascript
 const aboutMe = {
@@ -26,7 +25,7 @@ const aboutMe = {
 }
 ```
 
-## 🎯 Languages & Technologies
+## :dart: Languages & Technologies
 
 <div align="center">
   <img src="https://img.shields.io/badge/KOTLIN-blueviolet?style=for-the-badge&logo=kotlin&logoColor=white">
@@ -44,7 +43,7 @@ const aboutMe = {
 ## :bar_chart: Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=donatogomez&show_icons=true&theme=radical">
+  <img src="https://github-readme-stats.vercel.app/api?username=donatogomez&show_icons=true&theme=tokyonight">
 </div>
 
 ## :rocket: Support
@@ -55,5 +54,5 @@ const aboutMe = {
 </div>
 <br>
 <div align="center">
-  <img src="https://api.visitorbadge.io/api/VisitorHit?user=donatogomez&repo=github-visitors-badge&countColor=%237B1E7A">
+  <img src="https://api.visitorbadge.io/api/VisitorHit?user=donatogomez&repo=github-visitors-badge&countColor=RED">
 </div>
