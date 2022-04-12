@@ -41,7 +41,7 @@ const aboutMe = {
   <img src="https://img.shields.io/badge/slack-E01E5A?style=for-the-badge&logo=slack&logoColor=white">
 </div>
 
-## :bar_chart: Statistics
+## :chart_with_upwards_trend: Statistics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=donatogomez&show_icons=true&theme=tokyonight">
