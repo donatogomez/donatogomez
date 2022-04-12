@@ -13,7 +13,7 @@
 ```javascript
 const aboutMe = {
   pronouns: "he/him",
-  code: [Swift, Kotlin, Java, Dart, HTML, CSS],
+  code: [Swift, Kotlin, Java, Dart],
   architecture: ["Clean Architecture", "MVC", "MVVM", "MVVM-C"],
   technologies: {
       mobile: {
