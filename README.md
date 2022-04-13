@@ -3,7 +3,7 @@
 # :metal:&#127995; Yo!, What's up!?
 
 :zap: My name is **Donato**, I'm Mobile Developer & Code Lover  <br> 
-:trident: If you don't follow me yet, fork off.
+:trident: If you don't follow me yet, fork off!
 
 
 <br>[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
@@ -33,12 +33,13 @@ const aboutMe = {
   <img src="https://img.shields.io/badge/ANDROID-32DE84?style=for-the-badge&logo=android&logoColor=white">
   <img src="https://img.shields.io/badge/SWIFT-f05138?style=for-the-badge&logo=swift&logoColor=white">
   <img src="https://img.shields.io/badge/APPLE-white?style=for-the-badge&logo=apple&logoColor=black">
-  <img src="https://img.shields.io/badge/-GITHUB-black?style=for-the-badge&logo=github"><br>
-  <img src="https://img.shields.io/badge/mySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/-GITHUB-black?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/mySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white"><br>
   <img src="https://img.shields.io/badge/firebase-FFA611?style=for-the-badge&logo=firebase&logoColor=white">
   <img src="https://img.shields.io/badge/trello-007AC0?style=for-the-badge&logo=trello&logoColor=white">
   <img src="https://img.shields.io/badge/markdown-black?style=for-the-badge&logo=markdown&logoColor=white">
   <img src="https://img.shields.io/badge/slack-E01E5A?style=for-the-badge&logo=slack&logoColor=white">
+  <img src="https://img.shields.io/badge/FASTLANE-darkblue?style=for-the-badge&logo=fastlane&logoColor=white">
 </div>
 
 ## :chart_with_upwards_trend: Statistics
