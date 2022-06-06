@@ -10,20 +10,22 @@
 [![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=donatogomez.README.md)
 
-```javascript
-const aboutMe = {
+```swift
+let aboutMe = [
   pronouns: "he/him",
   code: [Swift, Kotlin, Java, Dart],
   architecture: ["Clean Architecture", "MVC", "MVVM", "MVVM-C"],
-  technologies: {
-      mobile: {
+  technologies: [
+      mobile: [
         platforms: ["iOS", "Android", "Hybrid"],
         tools: ["Xcode", "Android Studio", "Flutter", "Firebase", "Fastlane"]
-      },
-      persistence: ["MySQL", "SQLite", "Core Data"],
-      misc: ["Agile", "Scrum", "TDD", "Git"]
-   }
-}
+      ],
+      persistence: ["MySQL", "SQLite", "CoreData", "Room"],
+      libraries: ["Alamofire", "Kingfisher", "Moshi", "Dagger-hilt", 
+                  "KeyChain", "Retrofit", "Glide", "Picasso" ],
+      misc: ["Agile methodologies", "Scrum", "CI/CD", "Tests", "Git", "REST APIs"]
+   ]
+]
 ```
 
 ## :dart: Languages & Technologies
