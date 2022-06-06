@@ -1,4 +1,4 @@
-<img width=190 align="right" src="https://github.com/donatogomez/donatogomez/blob/main/img/donato-gomez.png" />
+<img src="https://github.com/donatogomez/donatogomez/blob/main/img/header.png" />
 
 # :metal:&#127995; Yo!, What's up!?
 
@@ -13,17 +13,18 @@
 ```swift
 let aboutMe = [
   pronouns: "he/him",
-  code: [Swift, Kotlin, Java, Dart],
+  code: ["Swift", "Kotlin", "Java", "Dart"],
   architecture: ["Clean Architecture", "MVC", "MVVM", "MVVM-C"],
   technologies: [
       mobile: [
         platforms: ["iOS", "Android", "Hybrid"],
-        tools: ["Xcode", "Android Studio", "Flutter", "Firebase", "Fastlane"]
+        tools: ["Xcode", "Android Studio", "Flutter"],
+        frameworks: ["Firebase", "Fastlane", "CoreData", 
+                     "SwiftUI", "Combine", "Jetpack Compose", "Room"]
       ],
-      persistence: ["MySQL", "SQLite", "CoreData", "Room"],
       libraries: ["Alamofire", "Kingfisher", "Moshi", "Dagger-hilt", 
-                  "KeyChain", "Retrofit", "Glide", "Picasso" ],
-      misc: ["Agile methodologies", "Scrum", "CI/CD", "Tests", "Git", "REST APIs"]
+                  "KeyChain", "Retrofit", "Glide", "Picasso"],
+      misc: ["Scrum", "Fastlane", "Github", "REST APIs"]
    ]
 ]
 ```
