@@ -1,14 +1,17 @@
 <img src="https://github.com/donatogomez/donatogomez/blob/main/img/header.png" />
 
-# :metal:&#127995; Yo!, What's up!?
+<br/>
 
-:zap: My name is **Donato**, I'm Mobile Developer & Code Lover  <br> 
-:trident: If you don't follow me yet, fork off!
+:metal:&#127995; Yo!, What's up!? My name is **Donato**, I'm Mobile Developer & Code Lover  <br> 
+:zap: If you don't follow me yet, fork off!
 
+<br/>
 
-<br>[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
+[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
 [![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=donatogomez.README.md)
+
+<br/> 
 
 ```swift
 let aboutMe = [
@@ -20,10 +23,10 @@ let aboutMe = [
         platforms: ["iOS", "Android", "Hybrid"],
         tools: ["Xcode", "Android Studio", "Flutter"],
         frameworks: ["Firebase", "Fastlane", "CoreData", 
-                     "SwiftUI", "Combine", "Jetpack Compose", "Room"]
-      ],
-      libraries: ["Alamofire", "Kingfisher", "Moshi", "Dagger-hilt", 
+                     "SwiftUI", "Combine", "Jetpack Compose", "Room"],
+        libraries: ["Alamofire", "Kingfisher", "Moshi", "Dagger-hilt"
                   "KeyChain", "Retrofit", "Glide", "Picasso"],
+      ],
       misc: ["Scrum", "Fastlane", "Github", "REST APIs"]
    ]
 ]
