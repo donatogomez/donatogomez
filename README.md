@@ -2,14 +2,14 @@
 
 <br/>
 
-:metal:&#127995; Yo!, What's up!? My name is **Donato**, I'm Mobile Developer & Code Lover  <br> 
-:zap: If you don't follow me yet, fork off!
-
-<br/>
-
 [![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
 [![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=donatogomez.README.md)
+
+<br/>
+
+:metal:&#127995; Yo!, What's up!? My name is **Donato**, I'm Mobile Developer & Code Lover  <br> 
+:zap: If you don't follow me yet, fork off!
 
 <br/> 
 
