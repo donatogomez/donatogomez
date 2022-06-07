@@ -1,7 +1,5 @@
 <img src="https://github.com/donatogomez/donatogomez/blob/main/img/header.png" />
 
-<br/>
-
 [![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
 [![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=donatogomez.README.md)
