@@ -4,57 +4,52 @@
 [![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=donatogomez.README.md)
 
-<br/>
+---
 
-:metal:&#127995; Yo!, What's up!? My name is **Donato**, I'm Mobile Developer & Code Lover  <br> 
-:zap: If you don't follow me yet, fork off!
+### 🍎 Swift & SwiftUI Dev  
+Building native apps for Apple platforms: iOS · iPadOS · macOS · watchOS  
+🧱 Clean Architecture · 💾 SwiftData · 🧪 Swift Testing · ☁️ Xcode Cloud  
+🔍 Exploring AI productivity with ChatGPT & Swift Assist
 
-<br/> 
+---
 
 ```swift
-let aboutMe = [
-  pronouns: "he/him",
-  code: ["Swift", "Kotlin", "Java", "Dart"],
-  architecture: ["Clean Architecture", "MVC", "MVVM", "MVVM-C"],
-  technologies: [
-      mobile: [
-        platforms: ["iOS", "Android", "Hybrid"],
-        tools: ["Xcode", "Android Studio", "Flutter"],
-        frameworks: ["Firebase", "Fastlane", "CoreData", 
-                     "SwiftUI", "Combine", "Jetpack Compose", "Room"],
-        libraries: ["Alamofire", "Kingfisher", "Moshi", "Dagger-hilt"
-                  "KeyChain", "Retrofit", "Glide", "Picasso"],
-      ],
-      misc: ["Scrum", "Fastlane", "Github", "REST APIs"]
-   ]
+let aboutMe: [String: Any] = [
+  "platforms": ["iOS", "macOS", "iPadOS", "watchOS"],
+  "code": ["Swift 6", "SwiftUI", "Combine"],
+  "architecture": ["MVVM", "Clean Architecture"],
+  "features": [
+    "Async/Await", 
+    "SwiftData", 
+    "DocC", 
+    "App modularization"
+  ],
+  "tools": ["Xcode", "Git", "Xcode Cloud", "Discord"],
+  "focus": ["Clean Code", "UI/UX", "Networking", "Testing", "Performance"]
 ]
 ```
 
-## :dart: Languages & Technologies
+## 🛠 Tech Stack
 
 <div align="center">
-  <img src="https://img.shields.io/badge/KOTLIN-blueviolet?style=for-the-badge&logo=kotlin&logoColor=white">
-  <img src="https://img.shields.io/badge/ANDROID-32DE84?style=for-the-badge&logo=android&logoColor=white">
-  <img src="https://img.shields.io/badge/SWIFT-f05138?style=for-the-badge&logo=swift&logoColor=white">
-  <img src="https://img.shields.io/badge/APPLE-white?style=for-the-badge&logo=apple&logoColor=black">
-  <img src="https://img.shields.io/badge/-GITHUB-black?style=for-the-badge&logo=github">
-  <img src="https://img.shields.io/badge/mySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white"><br>
-  <img src="https://img.shields.io/badge/firebase-FFA611?style=for-the-badge&logo=firebase&logoColor=white">
-  <img src="https://img.shields.io/badge/trello-007AC0?style=for-the-badge&logo=trello&logoColor=white">
-  <img src="https://img.shields.io/badge/markdown-black?style=for-the-badge&logo=markdown&logoColor=white">
-  <img src="https://img.shields.io/badge/slack-E01E5A?style=for-the-badge&logo=slack&logoColor=white">
-  <img src="https://img.shields.io/badge/FASTLANE-darkblue?style=for-the-badge&logo=fastlane&logoColor=white">
+  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white">
+  <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=apple&logoColor=white">
+  <img src="https://img.shields.io/badge/SwiftData-FFD60A?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Xcode-0D96F6?style=for-the-badge&logo=xcode&logoColor=white">
+  <img src="https://img.shields.io/badge/DocC-0A84FF?style=for-the-badge">
+  <img src="https://img.shields.io/badge/XcodeCloud-353535?style=for-the-badge">
 </div>
 
-## :chart_with_upwards_trend: Statistics
+## 📈 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=donatogomez&show_icons=true&theme=tokyonight">
 </div>
 
-## :rocket: Support
+## ☕️ Support
 
 <div align="center">
-  <a href="https://www.buymeacoffee.com/somalias" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+  <a href="https://www.buymeacoffee.com/somalias" target="_blank">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" width="174">
   </a>
 </div>
