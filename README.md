@@ -12,12 +12,11 @@
 [![Medium](https://img.shields.io/badge/-Medium-02B875?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@donatogomez88)
 
 Specialized in building native experiences across the Apple ecosystem with Swift & SwiftUI.  
-I write clean, testable code, follow modern architecture, and enjoy teaching what I learn.
+I write clean, testable code, follow modern architecture, and enjoy sharing what I learn.
 
 </div>
 
 ---
-
 
 ## 🛠 Tech Stack
 
@@ -137,10 +136,14 @@ struct DeveloperProfile {
 
 ## 🤝 Let's Collaborate
 
-If you enjoy my work, want to contribute or hire me, feel free to reach out or support what I do:
 
+<div align="center">
+  If you enjoy my work, want to contribute or hire me, feel free to reach out or support what I do: <br><br>
+</div>
+  
 <div align="center">
   <a href="https://www.buymeacoffee.com/somalias" target="_blank">
     <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" width="174">
   </a>
 </div>
+
