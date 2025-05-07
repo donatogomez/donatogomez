@@ -1,17 +1,62 @@
+<p align="right">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=donatogomez.donatogomez&title=Visitors" alt="Visitor count" />
+</p>
+
 <img src="https://github.com/donatogomez/donatogomez/blob/main/img/header.png" />
 
-[![Linkedin: Donato Gomez](https://img.shields.io/badge/-Donato_Gomez-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/donatogomez/)](https://www.linkedin.com/in/donatogomez/)
-[![GitHub Donato Gomez](https://img.shields.io/github/followers/donatogomez?label=follow&style=social)](https://github.com/donatogomez)
-![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=donatogomez.README.md)
+<div align="center">
+
+**🌐 Connect with me:**
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/donatogomez/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/donatogomez)
+[![Medium](https://img.shields.io/badge/-Medium-02B875?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@donatogomez88)
+
+Specialized in building native experiences across the Apple ecosystem with Swift & SwiftUI.  
+I write clean, testable code, follow modern architecture, and enjoy teaching what I learn.
+
+</div>
 
 ---
 
-### 🍎 Swift & SwiftUI Dev  
-Building native apps for Apple platforms: iOS · iPadOS · macOS · watchOS  
-🧱 Clean Architecture · 💾 SwiftData · 🧪 Swift Testing · ☁️ Xcode Cloud  
-🔍 Exploring AI productivity with ChatGPT & Swift Assist
 
----
+## 🛠 Tech Stack
+
+<div align="center">
+
+  <!-- 🌟 Lenguaje & Frameworks base -->
+  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white">
+  <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white">
+  <img src="https://img.shields.io/badge/SwiftData-5C5C5C?style=for-the-badge&logo=swift&logoColor=white">
+  <img src="https://img.shields.io/badge/Combine-FA7343?style=for-the-badge&logo=swift&logoColor=white">
+
+  <!-- 🔁 Concurrencia -->
+  <img src="https://img.shields.io/badge/Async/Await-1C1C1E?style=for-the-badge&logo=swift&logoColor=34C759">
+
+  <!-- 🧪 Testing y documentación -->
+  <img src="https://img.shields.io/badge/Swift_Testing-34C759?style=for-the-badge&logo=swift&logoColor=white">
+  <img src="https://img.shields.io/badge/DocC-0A84FF?style=for-the-badge&logo=googledocs&logoColor=white">
+
+  <!-- 🧠 AI & Developer Experience -->
+  <img src="https://img.shields.io/badge/Swift_Assist-F2F2F2?style=for-the-badge&logo=swift&logoColor=34C759">
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white">
+
+  <!-- 🔄 Modelado & APIs -->
+  <img src="https://img.shields.io/badge/Codable-000000?style=for-the-badge&logo=swift&logoColor=FA7343">
+  <img src="https://img.shields.io/badge/URLSession-0D96F6?style=for-the-badge&logo=apple&logoColor=white">
+
+  <!-- 🚀 Testing y distribución -->
+  <img src="https://img.shields.io/badge/TestFlight-007AFF?style=for-the-badge&logo=apple&logoColor=white">
+  <img src="https://img.shields.io/badge/Fastlane-00C7B7?style=for-the-badge&logo=fastlane&logoColor=white">
+
+  <!-- ⚙️ IDE, Versionado, CI/CD -->
+  <img src="https://img.shields.io/badge/Xcode-0D96F6?style=for-the-badge&logo=xcode&logoColor=white">
+  <img src="https://img.shields.io/badge/Xcode_Cloud-333333?style=for-the-badge&logo=icloud&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+
+</div>
+
+## 🧠 About Me
 
 ```swift
 struct DeveloperProfile {
@@ -59,7 +104,7 @@ struct DeveloperProfile {
         "Git (GitFlow)",          // Branching strategy for team development
         "DocC",                   // Documentation-first approach
         "Fastlane",               // Automating builds and App Store delivery
-        "Teams (team support)", // Used during live mentoring and collaboration
+        "Teams (team support)",   // Used during live mentoring and collaboration
         "Swift Assist",           // Apple's AI-powered dev tool
         "ChatGPT"                 // Generative AI assistant for productivity
     ]
@@ -84,26 +129,15 @@ struct DeveloperProfile {
 }
 ```
 
-## 🛠 Tech Stack
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white">
-  <img src="https://img.shields.io/badge/SwiftUI-Framework-007AFF?style=for-the-badge&logo=swift&logoColor=black">
-  <img src="https://img.shields.io/badge/SwiftData-FFD60A?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Combine-0A84FF?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Swift%20Testing-🧪%20Unit%20%26%20UI%20Tests-FF2D55?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Xcode-0D96F6?style=for-the-badge&logo=xcode&logoColor=white">
-  <img src="https://img.shields.io/badge/Xcode%20Cloud-353535?style=for-the-badge">
-  <img src="https://img.shields.io/badge/DocC-0A84FF?style=for-the-badge">
-</div>
-
 ## 📈 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=donatogomez&show_icons=true&theme=tokyonight">
 </div>
 
-## ☕️ Support
+## 🤝 Let's Collaborate
+
+If you enjoy my work, want to contribute or hire me, feel free to reach out or support what I do:
 
 <div align="center">
   <a href="https://www.buymeacoffee.com/somalias" target="_blank">
