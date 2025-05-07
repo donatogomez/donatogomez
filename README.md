@@ -88,7 +88,7 @@ struct DeveloperProfile {
 
 <div align="center">
   <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white">
-  <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=apple&logoColor=white">
+  <img src="https://img.shields.io/badge/SwiftUI-Framework-007AFF?style=for-the-badge&logo=swift&logoColor=black">
   <img src="https://img.shields.io/badge/SwiftData-FFD60A?style=for-the-badge">
   <img src="https://img.shields.io/badge/Combine-0A84FF?style=for-the-badge">
   <img src="https://img.shields.io/badge/Swift%20Testing-🧪%20Unit%20%26%20UI%20Tests-FF2D55?style=for-the-badge">
