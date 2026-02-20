@@ -9,7 +9,11 @@
 <img src="https://img.shields.io/badge/Actors-111111?style=for-the-badge&logo=apple&logoColor=white" />
 <img src="https://img.shields.io/badge/Swift%20Testing-34C759?style=for-the-badge&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/badge/DocC-0A84FF?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/Xcode-0D96F6?style=for-the-badge&logo=xcode&logoColor=white" />
+<img src="https://img.shields.io/badge/Xcode%20Cloud-333333?style=for-the-badge&logo=icloud&logoColor=white" />
 <img src="https://img.shields.io/badge/TestFlight-007AFF?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/CarPlay-000000?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/AI--Assisted%20Dev-10A37F?style=for-the-badge&logo=openai&logoColor=white" />
 
 </div>
 
@@ -88,6 +92,6 @@ Swift 6 • SwiftUI • SwiftData • Async/Await • Actors • Xcode • Git �
 ## 📈 GitHub Activity
 
 <div align="center">
-    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=donatogomez&show_icons=true&theme=tokyonight" />
+    <img src="https://streak-stats.demolab.com?user=donatogomez&theme=tokyonight" />
 </div>
 
