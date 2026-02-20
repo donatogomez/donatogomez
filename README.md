@@ -2,14 +2,25 @@
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/Swift%206-FA7343?style=for-the-badge&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/SwiftData-111111?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/Async%2FAwait-111111?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/Actors-111111?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/Swift%20Testing-34C759?style=for-the-badge&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/DocC-0A84FF?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/TestFlight-007AFF?style=for-the-badge&logo=apple&logoColor=white" />
+
+</div>
+
+<div align="center">
+
 Apple platforms developer focused on building production-grade SwiftUI apps with clean architecture and real-world constraints.  
 I ship features end-to-end: API integration, persistence, CarPlay, TestFlight and App Store delivery.
 
 [Website](https://donatogomez.dev) • [LinkedIn](https://www.linkedin.com/in/donatogomez/) • [GitHub](https://github.com/donatogomez) • [Medium](https://medium.com/@donatogomez88)
 
 </div>
-
----
 
 ## 🚀 What I build
 
@@ -26,8 +37,6 @@ Current projects:
 
 - **Zona Salsa Radio** — SwiftUI streaming app with CarPlay support  
 - **Bachata Trainer** — rhythm training app using haptics & audio feedback  
-
----
 
 ## 🧠 Developer Profile
 
@@ -72,17 +81,13 @@ struct DeveloperProfile {
 }
 ```
 
----
-
 ## 🛠 Core Stack
 
 Swift 6 • SwiftUI • SwiftData • Async/Await • Actors • Xcode • Git • Fastlane • TestFlight
 
----
-
 ## 📈 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=donatogomez&show_icons=true&theme=tokyonight">
+    <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=donatogomez&show_icons=true&theme=tokyonight" />
 </div>
 
