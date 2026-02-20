@@ -87,7 +87,7 @@ struct DeveloperProfile {
 
 ## 🛠 Core Stack
 
-Swift 6 • SwiftUI • SwiftData • Async/Await • Actors • Xcode • Git • Fastlane • TestFlight
+Swift 6 • SwiftUI • SwiftData • Async/Await • Actors • Xcode • Git • Xcode Cloud • TestFlight
 
 ## 📈 GitHub Activity
 
