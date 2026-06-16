@@ -49,9 +49,11 @@ I specialize in native Apple apps using modern Swift (Swift 6 + SwiftUI), with a
 
 <img src="https://img.shields.io/badge/App%20Store-Coming%20Soon-8E8E93?style=for-the-badge&logo=apple&logoColor=white" alt="Bachata Rhythm — Coming Soon" />
 
-**❓ Quizzly** — SwiftUI quiz app. *(In development)*
+**🧠 Quizly** — Native iOS app to import quizzes from multiple formats (JSON, Markdown), store them locally and solve them offline through dynamic, reproducible sessions. Strict layered architecture with unidirectional dependencies, zero third-party dependencies, actor-based file I/O, schema migrations and a deterministic session engine. Swift 6 · SwiftUI · async/await + actors · Codable · XCTest.
 
-<img src="https://img.shields.io/badge/App%20Store-Coming%20Soon-8E8E93?style=for-the-badge&logo=apple&logoColor=white" alt="Quizzly — Coming Soon" />
+<a href="https://github.com/donatogomez/quizly">
+  <img src="https://img.shields.io/badge/View%20Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="Quizly source on GitHub" />
+</a>
 
 ## ⚙️ Engineering notes — Zona Salsa Radio
 
@@ -82,7 +84,7 @@ struct DeveloperProfile {
     let name = "Donato Gómez"
     let role = "Apple Platforms Developer"
 
-    let platforms = ["iOS", "iPadOS", "macOS", "watchOS"]
+    let platforms = ["iOS", "iPadOS"]
 
     let architecture = [
         "MVVM",
