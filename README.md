@@ -11,7 +11,6 @@
   <img src="https://img.shields.io/badge/Swift%20Testing-34C759?style=for-the-badge&logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/Xcode-0D96F6?style=for-the-badge&logo=xcode&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Fastlane-1FAA59?style=for-the-badge&logo=fastlane&logoColor=white" />
   <img src="https://img.shields.io/badge/TestFlight-007AFF?style=for-the-badge&logo=apple&logoColor=white" />
   <img src="https://img.shields.io/badge/CarPlay-000000?style=for-the-badge&logo=apple&logoColor=white" />
   <img src="https://img.shields.io/badge/DocC-0A84FF?style=for-the-badge&logo=apple&logoColor=white" />
@@ -64,12 +63,10 @@ A small, native, privacy-first app (no data collection, ~3.6 MB) with more going
 - **Live streaming** with `AVPlayer` over a remote audio stream, with a configured `AVAudioSession` (`.playback`) for uninterrupted background audio.
 - **Lock Screen & Control Center** integration via `MPNowPlayingInfoCenter` and `MPRemoteCommandCenter`, keeping play/pause and metadata in sync with playback state.
 - **CarPlay** support so the stream is controllable from the car.
-- **Real-time now-playing** (artist / song / album) and song history.
+- **Now playing** (artist / song / album) refreshed every 15 s from the streaming server's played-tracks API, plus song history.
 - **Theming** (light / dark / automatic) and social sharing with per-destination flows (Instagram & Facebook Stories vs. generic share).
 - **Architecture**: Clean Architecture + MVVM with unidirectional data flow; concurrency handled with `async/await` and actors.
 - **Delivery**: shipped and maintained through Xcode Cloud → TestFlight → App Store.
-
-> _Note: adjust the metadata source (ICY stream metadata vs. API polling) and any specifics to match the real implementation before publishing._
 
 ## ✍️ Writing
 
