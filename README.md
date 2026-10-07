@@ -36,7 +36,7 @@ I specialize in native Apple apps using modern Swift (Swift 6 + SwiftUI), with a
 - Async/Await & Actors (strict concurrency)
 - SwiftData persistence
 - Audio streaming & CarPlay
-- End-to-end delivery (Xcode Cloud, TestFlight)
+- End-to-end delivery (TestFlight, App Store Connect)
 
 ## 📱 Apps
 
@@ -66,7 +66,7 @@ A small, native, privacy-first app (no data collection, ~3.6 MB) with more going
 - **Now playing** (artist / song / album) refreshed every 15 s from the streaming server's played-tracks API, plus song history.
 - **Theming** (light / dark / automatic) and social sharing with per-destination flows (Instagram & Facebook Stories vs. generic share).
 - **Architecture**: Clean Architecture + MVVM with unidirectional data flow; concurrency handled with `async/await` and actors.
-- **Delivery**: shipped and maintained through Xcode Cloud → TestFlight → App Store.
+- **Delivery**: shipped and maintained through TestFlight → App Store.
 
 ## ✍️ Writing
 
