@@ -21,10 +21,10 @@ Apple platforms developer focused on building production-grade SwiftUI apps with
 I ship features end-to-end: API integration, persistence, CarPlay, TestFlight and App Store delivery.
 
 <p align="center">
-  <a href="https://donatogomez.dev">Website</a> •
+  <a href="https://www.donatogomez.dev">Website</a> •
   <a href="https://www.linkedin.com/in/donatogomez/">LinkedIn</a> •
   <a href="https://github.com/donatogomez">GitHub</a> •
-  <a href="https://medium.com/@donatogomez88">Medium</a>
+  <a href="https://medium.com/@donatogomez">Medium</a>
 </p>
 
 ## 🚀 What I build
@@ -70,11 +70,11 @@ A small, native, privacy-first app (no data collection, ~3.6 MB) with more going
 
 ## ✍️ Writing
 
-I write about modern Swift on [Medium](https://medium.com/@donatogomez88) — Swift 6, strict concurrency and SwiftUI architecture.
+I write about modern Swift on [Medium](https://medium.com/@donatogomez) — Swift 6, strict concurrency and SwiftUI architecture.
 
-- [Reactive Swift Without Combine or Rx](https://medium.com/@donatogomez88/reactive-swift-without-combine-or-rx-a35a5ba31e08)
-- [Understanding @MainActor in SwiftUI: A Practical Guide for Swift 6](https://medium.com/@donatogomez88/understanding-mainactor-in-swiftui-a-practical-guide-for-swift-6-69e657872ec5)
-- [Swift Beyond the Apple Ecosystem: An Underused Language](https://medium.com/@donatogomez88/swift-beyond-the-apple-ecosystem-an-underused-language-b5f712ca0c90)
+- [Reactive Swift Without Combine or Rx](https://medium.com/@donatogomez/reactive-swift-without-combine-or-rx-a35a5ba31e08)
+- [Understanding @MainActor in SwiftUI: A Practical Guide for Swift 6](https://medium.com/@donatogomez/understanding-mainactor-in-swiftui-a-practical-guide-for-swift-6-69e657872ec5)
+- [Swift Is Not Just iOS — And Never Was](https://medium.com/@donatogomez/swift-beyond-the-apple-ecosystem-an-underused-language-b5f712ca0c90)
 
 ## 🧠 Developer Profile
 
