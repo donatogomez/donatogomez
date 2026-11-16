@@ -16,9 +16,9 @@
   <img src="https://img.shields.io/badge/watchOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="watchOS" />
 </p>
 
-I build native iOS apps in Swift and SwiftUI, and I can take one from an empty project to production on my own. [ZonaSalsa](https://apps.apple.com/us/app/zonasalsa/id6759666915), live on the App Store, is one I designed and built alone.
+Hi, I'm Donato. I build native apps for Apple platforms in Swift and SwiftUI, and what I enjoy most is how they're put together: concurrency, module boundaries, tests and the trade-offs behind each decision.
 
-Behind that: 3+ years at NTT DATA on production apps for the Government of Andalusia, Ferrovial, PRISA (Los40), Renfe and Vodafone, and my own apps for iOS, watchOS and macOS.
+Before my own apps: 3+ years at NTT DATA shipping production iOS apps for the Government of Andalusia, Ferrovial, PRISA (Los40), Renfe and Vodafone.
 
 <p align="center">
   <a href="https://www.donatogomez.dev">Website</a> •
@@ -26,55 +26,53 @@ Behind that: 3+ years at NTT DATA on production apps for the Government of Andal
   <a href="https://medium.com/@donatogomez">Medium</a>
 </p>
 
-## 💼 Experience
+## 🔭 Right now
 
-**iOS Developer · NTT DATA** (2022 – 2025)
+- Maintaining **ZonaSalsa**, live on the App Store and Google Play.
+- Building **audio-inspector**, a forensic audio-analysis tool for macOS.
 
-- **Ferrovial** — the only iOS developer on a new internal incident-management app, from scratch to delivery in ~3 months. I defined the architecture and stack (SwiftUI, async/await) and the UX/UI design, later adopted by the Android version, and integrated authentication through the Salesforce SDK and the client's proprietary mapping system.
-- **Carpeta Ciudadana (Government of Andalusia)** — I analysed the legacy app (~90% Objective-C; it did not build) and documented the deep-refactoring and rebuild alternatives in a technical report. The app was then rebuilt from scratch in SwiftUI with Clean Architecture and MVVM, and I was part of that team (v2.0, June 2024, rated 4.7★ on the App Store) and of its later releases.
-- **Los40 (PRISA)** — rebuilt the app's main screen in SwiftUI together with another developer, using Clean Architecture + MVVM, async/await and REST APIs. Shipped in v7.0.
-- **Renfe (dōcō) and Vodafone** — production bug fixing in large SwiftUI and UIKit codebases, plus some enhancements; on Vodafone's app I also wrote tests.
+## 🛠️ Things I've built
 
-Stack: Swift, SwiftUI, UIKit, MVVM, Clean Architecture, async/await, REST, CocoaPods, Git, Scrum.
+### 🎵 ZonaSalsa
 
-Earlier: native Android development (Java) in an international, English-speaking team in Belgium.
+The official app of a 24/7 salsa radio station. I designed, built and shipped it on my own, and I maintain it: iOS first, then an Android version (Kotlin, Jetpack Compose, Media3).
 
-## 📱 Apps and projects
+<a href="https://apps.apple.com/us/app/zonasalsa/id6759666915"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download ZonaSalsa on the App Store" height="48" align="middle" /></a>
+<a href="https://play.google.com/store/apps/details?id=dev.donatogomez.zonasalsaradio"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get ZonaSalsa Radio on Google Play" height="70" align="middle" /></a>
 
-### 🎵 ZonaSalsa — on the App Store
+The interesting bits:
 
-The official app of a 24/7 salsa radio station. I designed, built and shipped it on my own (v1.0 in February 2026, v1.1 in April) and I maintain it. There are also Android and web versions.
+- **Playback doesn't live in a view.** A long-lived `@MainActor @Observable` coordinator owns the audio transport, metadata, history and artwork, so "Hey Siri, play ZonaSalsa" or CarPlay works even when no UI exists. The ViewModel is just a facade over it.
+- **The audio player is an actor** that reports `connecting` / `playing` / `reconnecting` / `failed` through an `AsyncStream`; every system framework sits behind a protocol in a `Platform` layer.
+- **Now playing polls the server's played-tracks endpoint every 15 s** instead of reading ICY metadata from the stream: clean fields and song history, at the cost of up to 15 s of lag.
+- Swift 6 language mode with `MainActor` default isolation, ~300 Swift Testing tests, Lock Screen, Control Center and sharing to Stories.
 
-<a href="https://apps.apple.com/us/app/zonasalsa/id6759666915">
-  <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download ZonaSalsa on the App Store" height="48" />
-</a>
+### 📡 [SignalFlow](https://github.com/donatogomez/signal-flow)
 
-- **Background live streaming** with `AVPlayer` and an `AVAudioSession` in `.playback`; the audio player is an actor that reports its state through an `AsyncStream`.
-- **Works without the UI**: a `@MainActor @Observable` playback coordinator owns playback, metadata and history, so Siri (App Intents), CarPlay, the Lock Screen and Control Center (`MPNowPlayingInfoCenter`, `MPRemoteCommandCenter`) keep working even when no view exists.
-- **Now playing** (artist, song, artwork) refreshed every 15 s from the streaming server's played-tracks endpoint, plus song history and sharing to Stories.
-- **Architecture**: layered (App / Core / Domain / Features / Platform), MVVM with small use cases, and every system framework behind a protocol.
-- **Quality**: Swift 6 language mode with strict concurrency and ~300 tests with Swift Testing. iOS 18+, Spanish and English.
+Offline-first IoT fleet monitor for iOS 26 and watchOS, with simulated sensors and no backend. Clean Architecture across ~23 SPM modules, SwiftData, on-device Foundation Models, widgets, a Live Activity and an Apple Watch app.
 
-### 📡 [SignalFlow](https://github.com/donatogomez/signal-flow) — public on GitHub
+- **Module boundaries are enforced twice**: in the SPM graph and in a CI script, because in a full `swift build` an undeclared `import` can slip through locally.
+- **No `@Query` in views.** `@Model` objects never leave a `@ModelActor`; views read `Sendable` domain types through repositories.
+- **Facts in Swift, words in the model.** Statistics are computed in Swift and Foundation Models only writes the summary, with `@Generable` output and a deterministic fallback when the model isn't available.
+- **Deterministic concurrency tests**: seeded simulator, injected clock and a one-shot readiness signal instead of `sleep`. ~230 Swift Testing tests, gated by GitHub Actions.
 
-Offline-first IoT fleet-monitoring app for iOS 26 and watchOS. Clean Architecture across ~23 SPM modules whose boundaries are enforced in CI, SwiftData in a `ModelActor`, on-device Foundation Models, widgets, a Live Activity and an Apple Watch app. ~230 Swift Testing tests and GitHub Actions.
+### 🎛️ [audio-inspector](https://github.com/donatogomez/audio-inspector)
 
-### 🎛️ [audio-inspector](https://github.com/donatogomez/audio-inspector) — macOS, in progress
+A macOS tool that analyzes the decoded signal of an audio file, not its tags, to explain what can actually be proven about its source and quality. It separates measurable facts, detected indicators and cautious inferences, each with a confidence level, and never just says "fake MP3". Modular SPM package, 19 ADRs, OpenSpec specs and ~1,900 tests.
 
-Technical audio-file analysis tool for macOS. Modular SPM package, 19 ADRs, OpenSpec specifications and ~1,900 tests.
+### 🧠 [Quizly](https://github.com/donatogomez/quizly)
 
-### 🧠 [Quizly](https://github.com/donatogomez/quizly) — public on GitHub
+Imports quizzes from JSON and Markdown and runs them offline in reproducible sessions. Strict layered architecture with unidirectional dependencies, zero third-party dependencies, actor-based file I/O, schema migrations and a deterministic session engine.
 
-Imports quizzes from JSON and Markdown, stores them locally and runs them offline in reproducible sessions. Strict layered architecture with unidirectional dependencies, zero third-party dependencies, actor-based file I/O, schema migrations and a deterministic session engine. Swift 6 · SwiftUI · async/await + actors · Codable · XCTest.
+### 🥁 Bachata Rhythm
 
-### 🥁 Bachata Rhythm — finished, not yet published
+Rhythm trainer for bachata: six tracks (güira, bongó, bass, two guitars and a counting voice) across the derecho, majao and mambo sections, with tempo control, an AVFoundation audio engine, VoiceOver support and a Spanish/English UI. Finished, not yet published.
 
-Rhythm-training app for bachata: six tracks (güira, bongó, bass, two guitars and a counting voice) across the derecho, majao and mambo sections, with tempo control, an AVFoundation audio engine, VoiceOver support and a Spanish/English UI. Swift 6 with complete strict concurrency.
+## ⚙️ How I build
 
-## 🛠️ How I work
-
-- **Spec-driven, AI-assisted development** (OpenSpec, ADRs). I own the architecture and module boundaries, validate the specs and review every change before merging.
-- **Tests and CI green** before anything is done, and the compiler as a safety net: Swift 6 strict concurrency and warnings as errors.
+- **Spec-driven, AI-assisted development** with OpenSpec and ADRs. I own the architecture and module boundaries, validate the specs and review every change before merging.
+- **The compiler as a safety net**: Swift 6 strict concurrency and warnings as errors.
+- **Nothing is done until tests and CI are green.**
 
 ## ✍️ Writing
 
@@ -86,12 +84,4 @@ I write about modern Swift on [Medium](https://medium.com/@donatogomez):
 
 ## 🧰 Stack
 
-Swift · SwiftUI · Swift Concurrency (async/await, actors, Sendable) · MVVM · Clean Architecture · Swift Package Manager · URLSession / REST · SwiftData · Swift Testing · XCTest · Git · GitHub Actions · App Store Connect / TestFlight · AVFoundation · CarPlay · App Intents · WidgetKit · watchOS · Scrum
-
-Languages: Spanish (native) · English (C1, professional working proficiency)
-
----
-
-<p align="center">
-  Building something on Apple platforms? <a href="https://www.linkedin.com/in/donatogomez/">Message me on LinkedIn</a>.
-</p>
+Swift · SwiftUI · Swift Concurrency (async/await, actors, Sendable) · MVVM · Clean Architecture · Swift Package Manager · URLSession / REST · SwiftData · Swift Testing · XCTest · GitHub Actions · AVFoundation · CarPlay · App Intents · WidgetKit · watchOS · TestFlight
