@@ -40,6 +40,12 @@ The official app of a 24/7 salsa radio station. I designed, built and shipped it
 <a href="https://apps.apple.com/us/app/zonasalsa/id6759666915"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download ZonaSalsa on the App Store" height="48" align="middle" /></a>
 <a href="https://play.google.com/store/apps/details?id=dev.donatogomez.zonasalsaradio"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get ZonaSalsa Radio on Google Play" height="70" align="middle" /></a>
 
+<p>
+  <img src="img/screenshots/zonasalsa-player.webp" alt="ZonaSalsa: live player with recently played tracks" width="200" />
+  <img src="img/screenshots/zonasalsa-light.webp" alt="ZonaSalsa in light mode" width="200" />
+  <img src="img/screenshots/zonasalsa-settings.webp" alt="ZonaSalsa settings" width="200" />
+</p>
+
 The interesting bits:
 
 - **Playback doesn't live in a view.** A long-lived `@MainActor @Observable` coordinator owns the audio transport, metadata, history and artwork, so "Hey Siri, play ZonaSalsa" or CarPlay works even when no UI exists. The ViewModel is just a facade over it.
@@ -51,10 +57,16 @@ The interesting bits:
 
 Offline-first IoT fleet monitor for iOS 26 and watchOS, with simulated sensors and no backend. Clean Architecture across ~23 SPM modules, SwiftData, on-device Foundation Models, widgets, a Live Activity and an Apple Watch app.
 
+<p>
+  <img src="img/screenshots/signalflow-overview.webp" alt="SignalFlow: fleet overview" width="200" />
+  <img src="img/screenshots/signalflow-devices.webp" alt="SignalFlow: device list" width="200" />
+  <img src="img/screenshots/signalflow-detail.webp" alt="SignalFlow: device detail" width="200" />
+</p>
+
 - **Module boundaries are enforced twice**: in the SPM graph and in a CI script, because in a full `swift build` an undeclared `import` can slip through locally.
 - **No `@Query` in views.** `@Model` objects never leave a `@ModelActor`; views read `Sendable` domain types through repositories.
 - **Facts in Swift, words in the model.** Statistics are computed in Swift and Foundation Models only writes the summary, with `@Generable` output and a deterministic fallback when the model isn't available.
-- **Deterministic concurrency tests**: seeded simulator, injected clock and a one-shot readiness signal instead of `sleep`. ~230 Swift Testing tests, gated by GitHub Actions.
+- **Deterministic concurrency tests**: seeded simulator, injected clock and a one-shot readiness signal instead of `sleep`. ~285 Swift Testing tests, gated by GitHub Actions.
 
 ### 🎛️ [audio-inspector](https://github.com/donatogomez/audio-inspector)
 
