@@ -29,6 +29,7 @@ Before my own apps: 3+ years at NTT DATA shipping production iOS apps for the Go
 ## 🔭 Right now
 
 - Maintaining **ZonaSalsa**, live on the App Store and Google Play.
+- Just released **[OnAir](https://github.com/donatogomez/OnAir)** `0.1.0`, my first open-source Swift package.
 - Building **audio-inspector**, a forensic audio-analysis tool for macOS.
 
 ## 🛠️ Things I've built
@@ -55,6 +56,15 @@ The interesting bits:
 - **The audio player is an actor** that reports `connecting` / `playing` / `reconnecting` / `failed` through an `AsyncStream`; every system framework sits behind a protocol in a `Platform` layer.
 - **Now playing polls the server's played-tracks endpoint every 15 s** instead of reading ICY metadata from the stream: clean fields and song history, at the cost of up to 15 s of lag.
 - Swift 6 language mode with `MainActor` default isolation, ~300 Swift Testing tests, Lock Screen, Control Center and sharing to Stories.
+
+### 📻 [OnAir](https://github.com/donatogomez/OnAir)
+
+A Swift package that plays a live audio stream and keeps it alive, extracted from ZonaSalsa's player with everything station-specific removed.
+
+- **One actor, one state stream.** `RadioPlayer` exposes `play` / `stop` and an `AsyncStream` of states (`connecting`, `playing`, `reconnecting(attempt:)`, `waitingForNetwork`, `interrupted`, `failed`) that any number of subscribers can follow.
+- **Reconnection that respects the network**: exponential backoff, no retries burned while offline, and it yields to phone calls and Siri.
+- **Tested without audio or network.** `AVPlayer`, `NWPathMonitor` and `AVAudioSession` sit behind protocols; 28 deterministic Swift Testing tests with a manual clock and no `sleep`.
+- Swift 6, no third-party dependencies, iOS 17+ and macOS 14+, MIT.
 
 ### 📡 [SignalFlow](https://github.com/donatogomez/signal-flow)
 
