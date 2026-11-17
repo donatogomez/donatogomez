@@ -37,13 +37,16 @@ Before my own apps: 3+ years at NTT DATA shipping production iOS apps for the Go
 
 The official app of a 24/7 salsa radio station. I designed, built and shipped it on my own, and I maintain it: iOS first, then an Android version (Kotlin, Jetpack Compose, Media3).
 
-<a href="https://apps.apple.com/us/app/zonasalsa/id6759666915"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download ZonaSalsa on the App Store" height="48" align="middle" /></a>
-<a href="https://play.google.com/store/apps/details?id=dev.donatogomez.zonasalsaradio"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get ZonaSalsa Radio on Google Play" height="70" align="middle" /></a>
-
-<p>
+<p align="center">
   <img src="img/screenshots/zonasalsa-player.webp" alt="ZonaSalsa: live player with recently played tracks" width="200" />
   <img src="img/screenshots/zonasalsa-light.webp" alt="ZonaSalsa in light mode" width="200" />
   <img src="img/screenshots/zonasalsa-settings.webp" alt="ZonaSalsa settings" width="200" />
+</p>
+
+<p align="center">
+  <a href="https://apps.apple.com/us/app/zonasalsa/id6759666915"><img src="img/badges/app-store.svg" alt="Download ZonaSalsa on the App Store" width="144" height="48" /></a>
+  &nbsp;
+  <a href="https://play.google.com/store/apps/details?id=dev.donatogomez.zonasalsaradio"><img src="img/badges/google-play.png" alt="Get ZonaSalsa Radio on Google Play" width="161" height="48" /></a>
 </p>
 
 The interesting bits:
@@ -57,7 +60,7 @@ The interesting bits:
 
 Offline-first IoT fleet monitor for iOS 26 and watchOS, with simulated sensors and no backend. Clean Architecture across ~23 SPM modules, SwiftData, on-device Foundation Models, widgets, a Live Activity and an Apple Watch app.
 
-<p>
+<p align="center">
   <img src="img/screenshots/signalflow-overview.webp" alt="SignalFlow: fleet overview" width="200" />
   <img src="img/screenshots/signalflow-devices.webp" alt="SignalFlow: device list" width="200" />
   <img src="img/screenshots/signalflow-detail.webp" alt="SignalFlow: device detail" width="200" />
@@ -79,6 +82,12 @@ Imports quizzes from JSON and Markdown and runs them offline in reproducible ses
 ### 🥁 Bachata Rhythm
 
 Rhythm trainer for bachata: six tracks (güira, bongó, bass, two guitars and a counting voice) across the derecho, majao and mambo sections, with tempo control, an AVFoundation audio engine, VoiceOver support and a Spanish/English UI. Finished, not yet published.
+
+<p align="center">
+  <img src="img/screenshots/bachatarhythm-welcome.webp" alt="Bachata Rhythm: welcome screen" width="200" />
+  <img src="img/screenshots/bachatarhythm-player.webp" alt="Bachata Rhythm: rhythm player" width="200" />
+  <img src="img/screenshots/bachatarhythm-instrument.webp" alt="Bachata Rhythm: instrument detail" width="200" />
+</p>
 
 ## ⚙️ How I build
 
