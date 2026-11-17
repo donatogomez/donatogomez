@@ -72,9 +72,9 @@ Offline-first IoT fleet monitor for iOS 26 and watchOS, with simulated sensors a
 
 A macOS tool that analyzes the decoded signal of an audio file, not its tags, to explain what can actually be proven about its source and quality. It separates measurable facts, detected indicators and cautious inferences, each with a confidence level, and never just says "fake MP3". Modular SPM package, 19 ADRs, OpenSpec specs and ~1,900 tests.
 
-### 🧠 [Quizly](https://github.com/donatogomez/quizly)
+### 🧠 Quizly
 
-Imports quizzes from JSON and Markdown and runs them offline in reproducible sessions. Strict layered architecture with unidirectional dependencies, zero third-party dependencies, actor-based file I/O, schema migrations and a deterministic session engine.
+Imports quizzes from JSON and Markdown and runs them offline in reproducible sessions. Strict layered architecture with unidirectional dependencies, zero third-party dependencies, actor-based file I/O, schema migrations and a deterministic session engine. In progress, headed for the App Store.
 
 ### 🥁 Bachata Rhythm
 
